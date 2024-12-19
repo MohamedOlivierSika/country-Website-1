@@ -32,11 +32,11 @@ function Continent() {
     return (
         <div
             className='backgroundHomeImage'
-            style={{
+           /* style={{
                 backgroundImage: image ? `url(${image.src.large})` : 'none',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center'
-            }}
+            }}*/
         >
             <Header/>
             <img className='title' src={Africa} alt="Africa Title" />
